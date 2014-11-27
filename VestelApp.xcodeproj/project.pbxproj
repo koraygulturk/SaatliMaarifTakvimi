@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0B5B821876E1FD00ECAE8B /* Baby.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B5B811876E1FD00ECAE8B /* Baby.m */; };
+		0E0B5B851876E62700ECAE8B /* BabyNamesItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B5B841876E62700ECAE8B /* BabyNamesItem.m */; };
+		0E0B5B881876EB1C00ECAE8B /* babyM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B5B861876EB1C00ECAE8B /* babyM.png */; };
+		0E0B5B891876EB1C00ECAE8B /* babyF.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B5B871876EB1C00ECAE8B /* babyF.png */; };
+		0E0B5B8E1877123B00ECAE8B /* BackgroundContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B5B8D1877123B00ECAE8B /* BackgroundContainer.m */; };
+		0E0B5B8F1877143E00ECAE8B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0B5B8A18770F8000ECAE8B /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		0E9680B018758F9B00425678 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26EA7B9918697995004CFD82 /* Main_iPhone.storyboard */; };
+		0E9680B41875921400425678 /* CustumSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9680B31875921400425678 /* CustumSegue.m */; };
+		0E9680B61875929100425678 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9680B51875929100425678 /* QuartzCore.framework */; };
+		0E9680BC187599B400425678 /* TodayInHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9680BB187599B400425678 /* TodayInHistoryView.m */; };
+		0E9680BE18759CCB00425678 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9680BD18759CCB00425678 /* history.png */; };
+		0E9680C11875A04900425678 /* TodayInHistoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9680C01875A04900425678 /* TodayInHistoryItem.m */; };
+		0E9680C51875A9B200425678 /* OpportunityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9680C41875A9B200425678 /* OpportunityView.m */; };
+		0E9680C91875AA3900425678 /* AphorismView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9680C81875AA3900425678 /* AphorismView.m */; };
+		0E9680CD1875B6C200425678 /* BabyNamesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9680CC1875B6C200425678 /* BabyNamesView.m */; };
+		0E9680CF1876B5B500425678 /* names.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E9680CE1876B5B500425678 /* names.json */; };
+		0E9680D31876B76700425678 /* BabyNameService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9680D21876B76700425678 /* BabyNameService.m */; };
+		2600DF8A1872DF390068C09C /* WeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2600DF891872DF390068C09C /* WeatherService.m */; };
+		262DCA811871BE5400A767A5 /* WeatherSmallContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 262DCA801871BE5400A767A5 /* WeatherSmallContainer.m */; };
+		265C99021871CFA200C58EDF /* WeatherBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265C99011871CFA200C58EDF /* WeatherBigViewController.m */; };
+		26778E08186C5AA00092AA8D /* HegiraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26778E07186C5AA00092AA8D /* HegiraView.m */; };
+		26778E0B186C5AAB0092AA8D /* ChristianView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26778E0A186C5AAB0092AA8D /* ChristianView.m */; };
+		26883A45186DB54B001AA179 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26883A44186DB54B001AA179 /* ClockView.m */; };
+		26883A59186DB8CA001AA179 /* ClockContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26883A58186DB8CA001AA179 /* ClockContainerView.m */; };
+		26883A66186DCB59001AA179 /* clockBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 26883A62186DCB59001AA179 /* clockBg.png */; };
+		26883A67186DCB59001AA179 /* hourLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 26883A63186DCB59001AA179 /* hourLine.png */; };
+		26883A68186DCB59001AA179 /* minuteLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 26883A64186DCB59001AA179 /* minuteLine.png */; };
+		26883A69186DCB59001AA179 /* secondLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 26883A65186DCB59001AA179 /* secondLine.png */; };
+		26EA7B8818697995004CFD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EA7B8718697995004CFD82 /* Foundation.framework */; };
+		26EA7B8A18697995004CFD82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EA7B8918697995004CFD82 /* CoreGraphics.framework */; };
+		26EA7B8C18697995004CFD82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EA7B8B18697995004CFD82 /* UIKit.framework */; };
+		26EA7B9218697995004CFD82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26EA7B9018697995004CFD82 /* InfoPlist.strings */; };
+		26EA7B9418697995004CFD82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA7B9318697995004CFD82 /* main.m */; };
+		26EA7B9818697995004CFD82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA7B9718697995004CFD82 /* AppDelegate.m */; };
+		26EA7BA118697995004CFD82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA7BA018697995004CFD82 /* ViewController.m */; };
+		26EA7BA318697995004CFD82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EA7BA218697995004CFD82 /* Images.xcassets */; };
+		26EA7BAA18697995004CFD82 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EA7BA918697995004CFD82 /* XCTest.framework */; };
+		26EA7BAB18697995004CFD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EA7B8718697995004CFD82 /* Foundation.framework */; };
+		26EA7BAC18697995004CFD82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EA7B8B18697995004CFD82 /* UIKit.framework */; };
+		26EA7BB418697995004CFD82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26EA7BB218697995004CFD82 /* InfoPlist.strings */; };
+		26EA7BB618697995004CFD82 /* VestelAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA7BB518697995004CFD82 /* VestelAppTests.m */; };
+		26EA7BC218697A8C004CFD82 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EA7BC118697A8C004CFD82 /* CalendarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26EA7BAD18697995004CFD82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26EA7B7C18697995004CFD82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26EA7B8318697995004CFD82;
+			remoteInfo = VestelApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E0B5B801876E1FD00ECAE8B /* Baby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baby.h; sourceTree = "<group>"; };
+		0E0B5B811876E1FD00ECAE8B /* Baby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baby.m; sourceTree = "<group>"; };
+		0E0B5B831876E62700ECAE8B /* BabyNamesItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyNamesItem.h; sourceTree = "<group>"; };
+		0E0B5B841876E62700ECAE8B /* BabyNamesItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyNamesItem.m; sourceTree = "<group>"; };
+		0E0B5B861876EB1C00ECAE8B /* babyM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = babyM.png; path = images/babyM.png; sourceTree = "<group>"; };
+		0E0B5B871876EB1C00ECAE8B /* babyF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = babyF.png; path = images/babyF.png; sourceTree = "<group>"; };
+		0E0B5B8A18770F8000ECAE8B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0E0B5B8C1877123B00ECAE8B /* BackgroundContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundContainer.h; sourceTree = "<group>"; };
+		0E0B5B8D1877123B00ECAE8B /* BackgroundContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundContainer.m; sourceTree = "<group>"; };
+		0E9680B21875921400425678 /* CustumSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumSegue.h; sourceTree = "<group>"; };
+		0E9680B31875921400425678 /* CustumSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumSegue.m; sourceTree = "<group>"; };
+		0E9680B51875929100425678 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0E9680B7187595DC00425678 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0E9680BA187599B400425678 /* TodayInHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayInHistoryView.h; sourceTree = "<group>"; };
+		0E9680BB187599B400425678 /* TodayInHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayInHistoryView.m; sourceTree = "<group>"; };
+		0E9680BD18759CCB00425678 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = history.png; path = images/history.png; sourceTree = "<group>"; };
+		0E9680BF1875A04900425678 /* TodayInHistoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayInHistoryItem.h; sourceTree = "<group>"; };
+		0E9680C01875A04900425678 /* TodayInHistoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayInHistoryItem.m; sourceTree = "<group>"; };
+		0E9680C31875A9B200425678 /* OpportunityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpportunityView.h; sourceTree = "<group>"; };
+		0E9680C41875A9B200425678 /* OpportunityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpportunityView.m; sourceTree = "<group>"; };
+		0E9680C71875AA3900425678 /* AphorismView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AphorismView.h; sourceTree = "<group>"; };
+		0E9680C81875AA3900425678 /* AphorismView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AphorismView.m; sourceTree = "<group>"; };
+		0E9680CB1875B6C200425678 /* BabyNamesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyNamesView.h; sourceTree = "<group>"; };
+		0E9680CC1875B6C200425678 /* BabyNamesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyNamesView.m; sourceTree = "<group>"; };
+		0E9680CE1876B5B500425678 /* names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = names.json; path = resources/names.json; sourceTree = "<group>"; };
+		0E9680D11876B76700425678 /* BabyNameService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyNameService.h; sourceTree = "<group>"; };
+		0E9680D21876B76700425678 /* BabyNameService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyNameService.m; sourceTree = "<group>"; };
+		2600DF881872DF390068C09C /* WeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherService.h; sourceTree = "<group>"; };
+		2600DF891872DF390068C09C /* WeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherService.m; sourceTree = "<group>"; };
+		262DCA7F1871BE5400A767A5 /* WeatherSmallContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherSmallContainer.h; sourceTree = "<group>"; };
+		262DCA801871BE5400A767A5 /* WeatherSmallContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherSmallContainer.m; sourceTree = "<group>"; };
+		265C99001871CFA200C58EDF /* WeatherBigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherBigViewController.h; sourceTree = "<group>"; };
+		265C99011871CFA200C58EDF /* WeatherBigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherBigViewController.m; sourceTree = "<group>"; };
+		26778E06186C5AA00092AA8D /* HegiraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HegiraView.h; sourceTree = "<group>"; };
+		26778E07186C5AA00092AA8D /* HegiraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HegiraView.m; sourceTree = "<group>"; };
+		26778E09186C5AAB0092AA8D /* ChristianView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChristianView.h; sourceTree = "<group>"; };
+		26778E0A186C5AAB0092AA8D /* ChristianView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChristianView.m; sourceTree = "<group>"; };
+		26883A43186DB54B001AA179 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		26883A44186DB54B001AA179 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		26883A57186DB8CA001AA179 /* ClockContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockContainerView.h; sourceTree = "<group>"; };
+		26883A58186DB8CA001AA179 /* ClockContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockContainerView.m; sourceTree = "<group>"; };
+		26883A62186DCB59001AA179 /* clockBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clockBg.png; path = images/clockBg.png; sourceTree = "<group>"; };
+		26883A63186DCB59001AA179 /* hourLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hourLine.png; path = images/hourLine.png; sourceTree = "<group>"; };
+		26883A64186DCB59001AA179 /* minuteLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minuteLine.png; path = images/minuteLine.png; sourceTree = "<group>"; };
+		26883A65186DCB59001AA179 /* secondLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = secondLine.png; path = images/secondLine.png; sourceTree = "<group>"; };
+		26EA7B8418697995004CFD82 /* VestelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VestelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EA7B8718697995004CFD82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26EA7B8918697995004CFD82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26EA7B8B18697995004CFD82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26EA7B8F18697995004CFD82 /* VestelApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VestelApp-Info.plist"; sourceTree = "<group>"; };
+		26EA7B9118697995004CFD82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26EA7B9318697995004CFD82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26EA7B9518697995004CFD82 /* VestelApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VestelApp-Prefix.pch"; sourceTree = "<group>"; };
+		26EA7B9618697995004CFD82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26EA7B9718697995004CFD82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26EA7B9A18697995004CFD82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		26EA7B9F18697995004CFD82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26EA7BA018697995004CFD82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26EA7BA218697995004CFD82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26EA7BA818697995004CFD82 /* VestelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VestelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EA7BA918697995004CFD82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		26EA7BB118697995004CFD82 /* VestelAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VestelAppTests-Info.plist"; sourceTree = "<group>"; };
+		26EA7BB318697995004CFD82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26EA7BB518697995004CFD82 /* VestelAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VestelAppTests.m; sourceTree = "<group>"; };
+		26EA7BC018697A8C004CFD82 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		26EA7BC118697A8C004CFD82 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26EA7B8118697995004CFD82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0B5B8F1877143E00ECAE8B /* CoreLocation.framework in Frameworks */,
+				0E9680B61875929100425678 /* QuartzCore.framework in Frameworks */,
+				26EA7B8A18697995004CFD82 /* CoreGraphics.framework in Frameworks */,
+				26EA7B8C18697995004CFD82 /* UIKit.framework in Frameworks */,
+				26EA7B8818697995004CFD82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EA7BA518697995004CFD82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EA7BAA18697995004CFD82 /* XCTest.framework in Frameworks */,
+				26EA7BAC18697995004CFD82 /* UIKit.framework in Frameworks */,
+				26EA7BAB18697995004CFD82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E9680B1187591FB00425678 /* segues */ = {
+			isa = PBXGroup;
+			children = (
+				0E9680B21875921400425678 /* CustumSegue.h */,
+				0E9680B31875921400425678 /* CustumSegue.m */,
+			);
+			name = segues;
+			sourceTree = "<group>";
+		};
+		0E9680B91875999100425678 /* todayinhistory */ = {
+			isa = PBXGroup;
+			children = (
+				0E9680BA187599B400425678 /* TodayInHistoryView.h */,
+				0E9680BB187599B400425678 /* TodayInHistoryView.m */,
+				0E9680BF1875A04900425678 /* TodayInHistoryItem.h */,
+				0E9680C01875A04900425678 /* TodayInHistoryItem.m */,
+			);
+			name = todayinhistory;
+			sourceTree = "<group>";
+		};
+		0E9680C21875A9A000425678 /* opportunity */ = {
+			isa = PBXGroup;
+			children = (
+				0E9680C31875A9B200425678 /* OpportunityView.h */,
+				0E9680C41875A9B200425678 /* OpportunityView.m */,
+			);
+			name = opportunity;
+			sourceTree = "<group>";
+		};
+		0E9680C61875A9EF00425678 /* aphorism */ = {
+			isa = PBXGroup;
+			children = (
+				0E9680C71875AA3900425678 /* AphorismView.h */,
+				0E9680C81875AA3900425678 /* AphorismView.m */,
+			);
+			name = aphorism;
+			sourceTree = "<group>";
+		};
+		0E9680CA1875B6B000425678 /* babynames */ = {
+			isa = PBXGroup;
+			children = (
+				0E9680CB1875B6C200425678 /* BabyNamesView.h */,
+				0E9680CC1875B6C200425678 /* BabyNamesView.m */,
+				0E9680D11876B76700425678 /* BabyNameService.h */,
+				0E9680D21876B76700425678 /* BabyNameService.m */,
+				0E0B5B801876E1FD00ECAE8B /* Baby.h */,
+				0E0B5B811876E1FD00ECAE8B /* Baby.m */,
+				0E0B5B831876E62700ECAE8B /* BabyNamesItem.h */,
+				0E0B5B841876E62700ECAE8B /* BabyNamesItem.m */,
+			);
+			name = babynames;
+			sourceTree = "<group>";
+		};
+		0E9680D01876B5BD00425678 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E9680CE1876B5B500425678 /* names.json */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		262DCA7E1871BA0200A767A5 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				262DCA7F1871BE5400A767A5 /* WeatherSmallContainer.h */,
+				262DCA801871BE5400A767A5 /* WeatherSmallContainer.m */,
+				265C99001871CFA200C58EDF /* WeatherBigViewController.h */,
+				265C99011871CFA200C58EDF /* WeatherBigViewController.m */,
+				2600DF881872DF390068C09C /* WeatherService.h */,
+				2600DF891872DF390068C09C /* WeatherService.m */,
+			);
+			name = weather;
+			sourceTree = "<group>";
+		};
+		26883A3F186DB505001AA179 /* clock */ = {
+			isa = PBXGroup;
+			children = (
+				26883A43186DB54B001AA179 /* ClockView.h */,
+				26883A44186DB54B001AA179 /* ClockView.m */,
+				26883A57186DB8CA001AA179 /* ClockContainerView.h */,
+				26883A58186DB8CA001AA179 /* ClockContainerView.m */,
+			);
+			name = clock;
+			sourceTree = "<group>";
+		};
+		26883A46186DB713001AA179 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B5B861876EB1C00ECAE8B /* babyM.png */,
+				0E0B5B871876EB1C00ECAE8B /* babyF.png */,
+				0E9680BD18759CCB00425678 /* history.png */,
+				26883A62186DCB59001AA179 /* clockBg.png */,
+				26883A63186DCB59001AA179 /* hourLine.png */,
+				26883A64186DCB59001AA179 /* minuteLine.png */,
+				26883A65186DCB59001AA179 /* secondLine.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		26EA7B7B18697995004CFD82 = {
+			isa = PBXGroup;
+			children = (
+				0E9680D01876B5BD00425678 /* resources */,
+				26883A46186DB713001AA179 /* images */,
+				26EA7B8D18697995004CFD82 /* VestelApp */,
+				26EA7BAF18697995004CFD82 /* VestelAppTests */,
+				26EA7B8618697995004CFD82 /* Frameworks */,
+				26EA7B8518697995004CFD82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26EA7B8518697995004CFD82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26EA7B8418697995004CFD82 /* VestelApp.app */,
+				26EA7BA818697995004CFD82 /* VestelAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26EA7B8618697995004CFD82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B5B8A18770F8000ECAE8B /* CoreLocation.framework */,
+				0E9680B7187595DC00425678 /* CoreMotion.framework */,
+				0E9680B51875929100425678 /* QuartzCore.framework */,
+				26EA7B8718697995004CFD82 /* Foundation.framework */,
+				26EA7B8918697995004CFD82 /* CoreGraphics.framework */,
+				26EA7B8B18697995004CFD82 /* UIKit.framework */,
+				26EA7BA918697995004CFD82 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26EA7B8D18697995004CFD82 /* VestelApp */ = {
+			isa = PBXGroup;
+			children = (
+				0E9680CA1875B6B000425678 /* babynames */,
+				0E9680C61875A9EF00425678 /* aphorism */,
+				0E9680C21875A9A000425678 /* opportunity */,
+				0E9680B91875999100425678 /* todayinhistory */,
+				0E9680B1187591FB00425678 /* segues */,
+				262DCA7E1871BA0200A767A5 /* weather */,
+				26883A3F186DB505001AA179 /* clock */,
+				26EA7BBF18697A28004CFD82 /* calendar */,
+				26EA7B9618697995004CFD82 /* AppDelegate.h */,
+				26EA7B9718697995004CFD82 /* AppDelegate.m */,
+				26EA7B9918697995004CFD82 /* Main_iPhone.storyboard */,
+				26EA7B9F18697995004CFD82 /* ViewController.h */,
+				26EA7BA018697995004CFD82 /* ViewController.m */,
+				26EA7BA218697995004CFD82 /* Images.xcassets */,
+				26EA7B8E18697995004CFD82 /* Supporting Files */,
+				0E0B5B8C1877123B00ECAE8B /* BackgroundContainer.h */,
+				0E0B5B8D1877123B00ECAE8B /* BackgroundContainer.m */,
+			);
+			path = VestelApp;
+			sourceTree = "<group>";
+		};
+		26EA7B8E18697995004CFD82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26EA7B8F18697995004CFD82 /* VestelApp-Info.plist */,
+				26EA7B9018697995004CFD82 /* InfoPlist.strings */,
+				26EA7B9318697995004CFD82 /* main.m */,
+				26EA7B9518697995004CFD82 /* VestelApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26EA7BAF18697995004CFD82 /* VestelAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				26EA7BB518697995004CFD82 /* VestelAppTests.m */,
+				26EA7BB018697995004CFD82 /* Supporting Files */,
+			);
+			path = VestelAppTests;
+			sourceTree = "<group>";
+		};
+		26EA7BB018697995004CFD82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26EA7BB118697995004CFD82 /* VestelAppTests-Info.plist */,
+				26EA7BB218697995004CFD82 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26EA7BBF18697A28004CFD82 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				26EA7BC018697A8C004CFD82 /* CalendarView.h */,
+				26EA7BC118697A8C004CFD82 /* CalendarView.m */,
+				26778E06186C5AA00092AA8D /* HegiraView.h */,
+				26778E07186C5AA00092AA8D /* HegiraView.m */,
+				26778E09186C5AAB0092AA8D /* ChristianView.h */,
+				26778E0A186C5AAB0092AA8D /* ChristianView.m */,
+			);
+			name = calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26EA7B8318697995004CFD82 /* VestelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EA7BB918697995004CFD82 /* Build configuration list for PBXNativeTarget "VestelApp" */;
+			buildPhases = (
+				26EA7B8018697995004CFD82 /* Sources */,
+				26EA7B8118697995004CFD82 /* Frameworks */,
+				26EA7B8218697995004CFD82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VestelApp;
+			productName = VestelApp;
+			productReference = 26EA7B8418697995004CFD82 /* VestelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26EA7BA718697995004CFD82 /* VestelAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EA7BBC18697995004CFD82 /* Build configuration list for PBXNativeTarget "VestelAppTests" */;
+			buildPhases = (
+				26EA7BA418697995004CFD82 /* Sources */,
+				26EA7BA518697995004CFD82 /* Frameworks */,
+				26EA7BA618697995004CFD82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26EA7BAE18697995004CFD82 /* PBXTargetDependency */,
+			);
+			name = VestelAppTests;
+			productName = VestelAppTests;
+			productReference = 26EA7BA818697995004CFD82 /* VestelAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26EA7B7C18697995004CFD82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Koray Gültürk";
+				TargetAttributes = {
+					26EA7B8318697995004CFD82 = {
+						DevelopmentTeam = 4949VNZGSZ;
+					};
+					26EA7BA718697995004CFD82 = {
+						TestTargetID = 26EA7B8318697995004CFD82;
+					};
+				};
+			};
+			buildConfigurationList = 26EA7B7F18697995004CFD82 /* Build configuration list for PBXProject "VestelApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26EA7B7B18697995004CFD82;
+			productRefGroup = 26EA7B8518697995004CFD82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26EA7B8318697995004CFD82 /* VestelApp */,
+				26EA7BA718697995004CFD82 /* VestelAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26EA7B8218697995004CFD82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9680BE18759CCB00425678 /* history.png in Resources */,
+				0E9680B018758F9B00425678 /* Main_iPhone.storyboard in Resources */,
+				26EA7BA318697995004CFD82 /* Images.xcassets in Resources */,
+				26883A68186DCB59001AA179 /* minuteLine.png in Resources */,
+				0E0B5B891876EB1C00ECAE8B /* babyF.png in Resources */,
+				0E9680CF1876B5B500425678 /* names.json in Resources */,
+				0E0B5B881876EB1C00ECAE8B /* babyM.png in Resources */,
+				26883A69186DCB59001AA179 /* secondLine.png in Resources */,
+				26883A66186DCB59001AA179 /* clockBg.png in Resources */,
+				26883A67186DCB59001AA179 /* hourLine.png in Resources */,
+				26EA7B9218697995004CFD82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EA7BA618697995004CFD82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EA7BB418697995004CFD82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26EA7B8018697995004CFD82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0B5B8E1877123B00ECAE8B /* BackgroundContainer.m in Sources */,
+				26778E0B186C5AAB0092AA8D /* ChristianView.m in Sources */,
+				26883A59186DB8CA001AA179 /* ClockContainerView.m in Sources */,
+				265C99021871CFA200C58EDF /* WeatherBigViewController.m in Sources */,
+				2600DF8A1872DF390068C09C /* WeatherService.m in Sources */,
+				26EA7BA118697995004CFD82 /* ViewController.m in Sources */,
+				262DCA811871BE5400A767A5 /* WeatherSmallContainer.m in Sources */,
+				0E9680C51875A9B200425678 /* OpportunityView.m in Sources */,
+				0E9680C91875AA3900425678 /* AphorismView.m in Sources */,
+				0E9680D31876B76700425678 /* BabyNameService.m in Sources */,
+				0E9680C11875A04900425678 /* TodayInHistoryItem.m in Sources */,
+				0E9680B41875921400425678 /* CustumSegue.m in Sources */,
+				26EA7B9818697995004CFD82 /* AppDelegate.m in Sources */,
+				26778E08186C5AA00092AA8D /* HegiraView.m in Sources */,
+				0E9680BC187599B400425678 /* TodayInHistoryView.m in Sources */,
+				26EA7BC218697A8C004CFD82 /* CalendarView.m in Sources */,
+				26883A45186DB54B001AA179 /* ClockView.m in Sources */,
+				0E9680CD1875B6C200425678 /* BabyNamesView.m in Sources */,
+				0E0B5B821876E1FD00ECAE8B /* Baby.m in Sources */,
+				26EA7B9418697995004CFD82 /* main.m in Sources */,
+				0E0B5B851876E62700ECAE8B /* BabyNamesItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EA7BA418697995004CFD82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EA7BB618697995004CFD82 /* VestelAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26EA7BAE18697995004CFD82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26EA7B8318697995004CFD82 /* VestelApp */;
+			targetProxy = 26EA7BAD18697995004CFD82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26EA7B9018697995004CFD82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26EA7B9118697995004CFD82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26EA7B9918697995004CFD82 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26EA7B9A18697995004CFD82 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		26EA7BB218697995004CFD82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26EA7BB318697995004CFD82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26EA7BB718697995004CFD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26EA7BB818697995004CFD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26EA7BBA18697995004CFD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VestelApp/VestelApp-Prefix.pch";
+				INFOPLIST_FILE = "VestelApp/VestelApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26EA7BBB18697995004CFD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VestelApp/VestelApp-Prefix.pch";
+				INFOPLIST_FILE = "VestelApp/VestelApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26EA7BBD18697995004CFD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VestelApp.app/VestelApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VestelApp/VestelApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VestelAppTests/VestelAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		26EA7BBE18697995004CFD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VestelApp.app/VestelApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VestelApp/VestelApp-Prefix.pch";
+				INFOPLIST_FILE = "VestelAppTests/VestelAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26EA7B7F18697995004CFD82 /* Build configuration list for PBXProject "VestelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EA7BB718697995004CFD82 /* Debug */,
+				26EA7BB818697995004CFD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26EA7BB918697995004CFD82 /* Build configuration list for PBXNativeTarget "VestelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EA7BBA18697995004CFD82 /* Debug */,
+				26EA7BBB18697995004CFD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26EA7BBC18697995004CFD82 /* Build configuration list for PBXNativeTarget "VestelAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EA7BBD18697995004CFD82 /* Debug */,
+				26EA7BBE18697995004CFD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26EA7B7C18697995004CFD82 /* Project object */;
+}

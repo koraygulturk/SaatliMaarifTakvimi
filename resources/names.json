@@ -1,0 +1,29 @@
+{
+    "names": 
+    [
+    {
+		"name": "Tuna",
+		"sex": "M"
+	},
+	{
+		"name":"Başak",
+		"sex": "F"
+	},
+	{
+		"name": "Kezban",
+		"sex": "F"
+	},
+    {
+		"name": "Dila",
+		"sex": "F"
+	},
+    {
+    	"name": "Koray",
+		"sex": "M"
+	},
+    {
+    	"name": "Kina",
+		"sex": "F"
+	}
+]
+}
